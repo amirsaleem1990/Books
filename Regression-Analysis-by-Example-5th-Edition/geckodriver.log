@@ -6,3 +6,33 @@
 1567053262925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1567053264641	Marionette	INFO	Listening on port 44647
 1567053264726	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567023479829%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+(/usr/lib/firefox/firefox:5941): dconf-WARNING **: 09:34:46.173: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeFJ6UitCTJjMYHe7VNq7GueZkmzyF9555-oRuQzN3emSrhdmMvIbQkPGElNM-8m1qEy88TyVAtPmdc6HiFzZQ2d7pKqilyIlgghopvT7YFOaSzT2Sybl5oMIRJbJns1P4E, line 4: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeFJ6UitCTJjMYHe7VNq7GueZkmzyF9555-oRuQzN3emSrhdmMvIbQkPGElNM-8m1qEy88TyVAtPmdc6HiFzZQ2d7pKqilyIlgghopvT7YFOaSzT2Sybl5oMIRJbJns1P4E, line 4: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeFJ6UitCTJjMYHe7VNq7GueZkmzyF9555-oRuQzN3emSrhdmMvIbQkPGElNM-8m1qEy88TyVAtPmdc6HiFzZQ2d7pKqilyIlgghopvT7YFOaSzT2Sybl5oMIRJbJns1P4E, line 4: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeFJ6UitCTJjMYHe7VNq7GueZkmzyF9555-oRuQzN3emSrhdmMvIbQkPGElNM-8m1qEy88TyVAtPmdc6HiFzZQ2d7pKqilyIlgghopvT7YFOaSzT2Sybl5oMIRJbJns1P4E, line 4: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yC/l/en_US/vdZSPMoJQ6g.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeEszpLyuvThZyyTG9rW36lADFbVBCGq_HxUdP4R0CsFGvrWLiTkJ-FfGRkzND2mQITWIgXHy_U6ta1MbpzEnzc6BfgcLjqyly2_tvXNt7p-G1Cpvcrz_sKKeoE5J4TLBfU, line 14: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yC/l/en_US/vdZSPMoJQ6g.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeEszpLyuvThZyyTG9rW36lADFbVBCGq_HxUdP4R0CsFGvrWLiTkJ-FfGRkzND2mQITWIgXHy_U6ta1MbpzEnzc6BfgcLjqyly2_tvXNt7p-G1Cpvcrz_sKKeoE5J4TLBfU, line 14: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yC/l/en_US/vdZSPMoJQ6g.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeEszpLyuvThZyyTG9rW36lADFbVBCGq_HxUdP4R0CsFGvrWLiTkJ-FfGRkzND2mQITWIgXHy_U6ta1MbpzEnzc6BfgcLjqyly2_tvXNt7p-G1Cpvcrz_sKKeoE5J4TLBfU, line 14: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yC/l/en_US/vdZSPMoJQ6g.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeEszpLyuvThZyyTG9rW36lADFbVBCGq_HxUdP4R0CsFGvrWLiTkJ-FfGRkzND2mQITWIgXHy_U6ta1MbpzEnzc6BfgcLjqyly2_tvXNt7p-G1Cpvcrz_sKKeoE5J4TLBfU, line 14: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+[Parent 5851, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yC/l/en_US/vdZSPMoJQ6g.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeEszpLyuvThZyyTG9rW36lADFbVBCGq_HxUdP4R0CsFGvrWLiTkJ-FfGRkzND2mQITWIgXHy_U6ta1MbpzEnzc6BfgcLjqyly2_tvXNt7p-G1Cpvcrz_sKKeoE5J4TLBfU, line 14: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yC/l/en_US/vdZSPMoJQ6g.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeEszpLyuvThZyyTG9rW36lADFbVBCGq_HxUdP4R0CsFGvrWLiTkJ-FfGRkzND2mQITWIgXHy_U6ta1MbpzEnzc6BfgcLjqyly2_tvXNt7p-G1Cpvcrz_sKKeoE5J4TLBfU, line 14: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yC/l/en_US/vdZSPMoJQ6g.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeEszpLyuvThZyyTG9rW36lADFbVBCGq_HxUdP4R0CsFGvrWLiTkJ-FfGRkzND2mQITWIgXHy_U6ta1MbpzEnzc6BfgcLjqyly2_tvXNt7p-G1Cpvcrz_sKKeoE5J4TLBfU, line 14: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yC/l/en_US/vdZSPMoJQ6g.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeEszpLyuvThZyyTG9rW36lADFbVBCGq_HxUdP4R0CsFGvrWLiTkJ-FfGRkzND2mQITWIgXHy_U6ta1MbpzEnzc6BfgcLjqyly2_tvXNt7p-G1Cpvcrz_sKKeoE5J4TLBfU, line 14: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1567053307774	Marionette	INFO	Stopped listening on port 44647
